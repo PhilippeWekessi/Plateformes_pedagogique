@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer un compte formateur</title>
+    <link rel="stylesheet" href="./css/styleus2.1.css">
+</head>
+<body>
+    <div class="container">
+    
+        <div class="card">
+            <h1>Créer un compte formateur</h1>
+
+            <form id="formFormateur">
+                <label>Nom</label>
+                <input type="text" name="nom" required>
+
+                <label>Prénom</label>
+                <input type="text" name="prenom" required>
+
+                <label>Email</label>
+                <input type="email" name="email" required>
+
+                <label>Mot de passe</label>
+                <input type="password" name="password" required>
+
+                <!-- rôle caché car c'est toujours formateur -->
+                <input type="hidden" name="role" value="formateur">
+
+                <button type="submit">Créer le compte</button>
+            </form>
+
+            <p id="message"></p>
+
+        </div>
+    </div>
+<script src="./js/formateur.js"></script>
+</body>
+</html>

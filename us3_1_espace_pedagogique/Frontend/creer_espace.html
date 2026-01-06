@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer un espace pédagogique</title>
+    <link rel="stylesheet" href="./css/styleus3.1.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>Créer un espace pédagogique</h1>
+
+        <form id="formEspace">
+            <label>Nom de l’espace</label>
+            <input type="text" name="nom" required>
+
+            <label>Matière</label>
+            <input type="text" name="matiere" required>
+
+            <button type="submit">Créer</button>
+        </form>
+
+        <p id="message"></p>
+
+        <h2>Espaces existants</h2>
+        <ul id="listeEspaces"></ul>
+
+    </div>
+</div>
+
+<script src="./js/espace.js"></script>
+</body>
+</html>

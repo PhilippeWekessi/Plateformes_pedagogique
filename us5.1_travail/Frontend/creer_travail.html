@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer un travail</title>
+    <link rel="stylesheet" href="./css/styleus5.1.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <h1>Créer un travail</h1>
+
+            <form id="formTravail">
+
+                <label>Titre du travail</label>
+                <input type="text" name="titre" placeholder="Ex : Projet Web" required>
+
+                <label>Type de travail</label>
+                <select name="type" required>
+                    <option value="">-- Choisir --</option>
+                    <option value="individuel">Individuel</option>
+                    <option value="collectif">Collectif</option>
+                </select>
+
+                <label>Consignes</label>
+                <textarea name="consignes" rows="5" placeholder="Décrivez les consignes du travail..." required></textarea>
+
+                <label>Date limite</label>
+                <input type="date" name="date_limite" required>
+
+                <button type="submit">Créer le travail</button>
+
+            </form>
+
+            <p id="message"></p>
+
+        </div>
+    </div>
+
+    <script src="./js/travail.js"></script>
+</body>
+</html>

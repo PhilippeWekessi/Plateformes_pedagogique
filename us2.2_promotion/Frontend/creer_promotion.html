@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer une promotion</title>
+    <link rel="stylesheet" href="./css/styleus2.2.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        
+        <h1>Création d'une promotion</h1>
+        <form id="formPromotion">
+            <label>Nom de la promotion</label>
+            <input type="text" name="nom" required>
+
+            <label>Année académique</label>
+            <input type="text" name="annee_academique" placeholder="2024-2025" required>
+
+            <button type="submit">Créer la promotion</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+</div>
+
+<script src="./js/promotion.js"></script>
+</body>
+</html>
