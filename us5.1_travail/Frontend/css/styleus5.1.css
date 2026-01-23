@@ -1,0 +1,115 @@
+:root {
+  --primary: #1d4ed8;
+  --secondary: #0f172a;
+  --light: #f8fafc;
+  --border: #e5e7eb;
+  --success: #16a34a;
+  --danger: #dc2626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  background: rgb(16, 94, 87);
+  color: var(--secondary);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+/* FORM */
+label {
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary);
+}
+
+/* BUTTON */
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(29, 78, 216, 0.3);
+}
+
+/* MESSAGE */
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success {
+  color: var(--success);
+}
+
+.error {
+  color: var(--danger);
+}
+/* Ajoute cette classe à ton fichier CSS */
+.btn-secondary {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: var(--light);
+    color: var(--secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    background: var(--border);
+}

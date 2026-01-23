@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un espace pédagogique</title>
+    <link rel="stylesheet" href="./css/styleus3.1.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>Créer un espace pédagogique</h1>
+
+        <form id="formEspace" method="POST">
+            <div class="form-group">
+                <label for="nom">Nom de l'espace *</label>
+                <input type="text" id="nom" name="nom" required placeholder="Ex: Cours de Mathématiques">
+            </div>
+
+            <div class="form-group">
+                <label for="matiere">Matière *</label>
+                <input type="text" id="matiere" name="matiere" required placeholder="Ex: Mathématiques">
+            </div>
+
+            <div class="form-group">
+                <label for="promotion">Promotion *</label>
+                <select id="promotion" name="id_promotion" required>
+                    <option value="" disabled selected>Sélectionnez une promotion</option>
+                    <!-- Les options seront ajoutées dynamiquement par JavaScript -->
+                </select>
+            </div>
+
+            <button type="submit" id="submitBtn">Créer l'espace</button>
+        </form>
+
+        <div id="message" class="message"></div>
+
+        <h2>Espaces pédagogiques existants</h2>
+        <ul id="listeEspaces">
+            <li>Chargement en cours...</li>
+        </ul><br><br>
+        <a href="../../directeur/frontend/dashboard.html" class="btn-secondary">Retour au dashboard</a>
+    </div>
+</div>
+
+<script src="js/espaces.js"></script>
+</body>
+</html>

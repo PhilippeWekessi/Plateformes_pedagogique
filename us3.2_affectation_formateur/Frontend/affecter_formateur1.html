@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Affecter un formateur</title>
+    <link rel="stylesheet" href="./css/styleus3.2.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>Affecter un formateur</h1>
+
+        <form id="formAffectation">
+
+            <label>Formateur</label>
+            <select name="formateur_id" required>
+                <option value="">-- Choisir un formateur --</option>
+                <!-- chargé dynamiquement -->
+            </select>
+
+            <label>Espace pédagogique</label>
+            <select name="espace_id" required>
+                <option value="">-- Choisir un espace --</option>
+                <!-- chargé dynamiquement -->
+            </select>
+
+            <button type="submit">Affecter</button><br><br>
+            <a href="../../directeur/frontend/dashboard.html" class="btn-secondary">Retour au dashboard</a>
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+</div>
+
+<script src="./js/affectation_formateur.js"></script>
+</body>
+</html>

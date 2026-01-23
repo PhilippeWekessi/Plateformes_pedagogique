@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Évaluer un travail</title>
+    <link rel="stylesheet" href="css/styleus9.1.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>📝 Évaluation d’un travail livré</h2>
+
+    <form id="formEvaluation">
+        <div class="form-group">
+            <label>Travail livré</label>
+            <select id="livraison" required></select>
+        </div>
+
+        <div class="form-group">
+            <label>Note / Points</label>
+            <input type="number" step="0.5" id="note" required>
+        </div>
+
+        <div class="form-group">
+            <label>Commentaire pédagogique</label>
+            <textarea id="commentaire" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Valider l’évaluation</button>
+    </form>
+
+    <div id="message"></div>
+</div>
+
+<script src="./js/evaluer_travail.js"></script>
+</body>
+</html>

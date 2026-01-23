@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignation d'un travail individuel</title>
+    <link rel="stylesheet" href="css/styleus6.1.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>📘 Assigner un travail individuel</h2>
+
+    <form id="formTravail">
+        <div class="form-group">
+            <label for="etudiant">Étudiant</label>
+            <select id="etudiant" name="etudiant" required>
+                <option value="">-- Choisir un étudiant --</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="titre">Titre du travail</label>
+            <input type="text" id="titre" name="titre" placeholder="Ex: Projet Web" required>
+        </div>
+
+        <div class="form-group">
+            <label for="type">Type de travail</label>
+            <select id="type" name="type" required>
+                <option value="">-- Choisir un type --</option>
+                <option value="Devoir">Devoir</option>
+                <option value="Projet">Projet</option>
+                <option value="Examen">Examen</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="consignes">Consignes</label>
+            <textarea id="consignes" name="consignes" rows="4" placeholder="Décrivez les consignes du travail..." required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="date_limite">Date limite</label>
+            <input type="date" id="date_limite" name="date_limite" required>
+        </div>
+
+        <button type="submit">Assigner le travail</button><br><br>
+        <a href="../../directeur/frontend/dashboard.html" class="btn-secondary">Retour au dashboard</a>
+    </form>
+
+    <div id="message"></div>
+</div>
+
+<script src="js/assigner_travail.js"></script>
+</body>
+</html>

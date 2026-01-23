@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Directeur</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="dashboard-header">
+                <h1>Tableau de bord - Directeur</h1>
+                <div class="user-info">
+                    <span id="userName">Chargement...</span>
+                    <a href="changer_password.html" class="btn-change-password">Changer mot de passe</a>
+                    <button id="btnLogout" class="btn-logout">Déconnexion</button>
+                </div>
+            </div>
+            
+            <div class="dashboard-menu">
+                <h2>Gestion des utilisateurs</h2>
+                <ul>
+                    <li><a href="../../us2.1_formateur/frontend/creer_formateur.html">Créer un formateur</a></li>
+                    <li><a href="../../us2.2_promotion/frontend/creer_promotion.html">Créer une promotion</a></li>
+                    <li><a href="../../us2.3_etudiant/frontend/creer_etudiant.html">Créer un étudiant</a></li>
+                </ul>
+
+                <h2>Gestion des espaces pédagogiques</h2>
+                <ul>
+                    <li><a href="../../us3_1_espace_pedagogique/frontend/creer_espace.html">Créer un espace pédagogique</a></li>
+                    <li><a href="../../us3.2_affectation_formateur/Frontend/affecter_formateur1.html">Affecter un formateur</a></li>
+                    <li><a href="../..\us3_3_affectation_etudiant_espace\Frontend\affectation_etudiant.html">Affecter un étudiant</a></li>
+                    <li><a href="../../US3_5_espaces/frontend/consulter_espaces.html">Consulter espaces</a></li>
+                </ul>
+
+                <h2>Gestion des travaux</h2>
+                <ul>
+                    <li><a href="../../us5.1_travail/frontend/creer_travail.html">Créer un travail</a></li>
+                    <li><a href="../../US6_1_assigner_travail/frontend/assigner_travail.html">Assigner un travail</a></li>
+                    <li><a href="../../us7.1_consulter_travaux_etudiant/frontend/consulter_travaux.html">Travaux étudiants</a></li>
+                    <li><a href="../../us8.1_livraison_travail/frontend/livrer_travail.html">Livraison travail</a></li>
+                    <li><a href="../../US9_1_evaluer_travail/frontend/evaluer_travail.html">Évaluer travail</a></li>
+                </ul>
+
+                <h2>Suivi et statistiques</h2>
+                <ul>
+                    <li><a href="../../us10.1_consulter_points/frontend/consulter_points.html">Points étudiants</a></li>
+                    <li><a href="../../us11.1_consulter_classement/frontend/consulter_classement.html">Classement général</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/dashboard.js"></script>
+    <script src="./js/logout.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Livrer un travail</title>
+    <link rel="stylesheet" href="./css/styleus8.1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Livrer un travail</h1>
+            <form id="formLivraison" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="id_travail">Travail à livrer</label>
+                    <select id="id_travail" name="id_travail" required>
+                        <option value="">-- Sélectionner un travail --</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fichier">Fichier à téléverser</label>
+                    <input type="file" id="fichier" name="fichier" accept=".pdf,.doc,.docx,.zip" required>
+                </div>
+                <button type="submit">Livrer le travail</button>
+                <a href="../../directeur/frontend/dashboard.html" class="btn-secondary">Retour au dashboard</a>
+            </form>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="js/livrer_travail.js"></script>
+</body>
+</html>

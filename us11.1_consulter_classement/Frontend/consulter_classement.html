@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Classement général</title>
+    <link rel="stylesheet" href="./css/styleus11.1.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>Classement général</h1>
+
+        <form id="formClassement">
+            <label>Promotion</label>
+            <select name="promotion" required>
+                <option value="">-- Sélectionner --</option>
+            </select>
+
+            <label>Année académique</label>
+            <select name="annee" required>
+                <option value="">-- Sélectionner --</option>
+            </select>
+
+            <button type="submit">Afficher le classement</button>
+        </form>
+
+        <p id="message"></p>
+
+        <h2>Résultat du classement</h2>
+        <table id="tableClassement">
+            <thead>
+                <tr>
+                    <th>Rang</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Note totale</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="./js/consulter_classement.js"></script>
+</body>
+</html>

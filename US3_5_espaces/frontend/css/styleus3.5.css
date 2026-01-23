@@ -1,0 +1,107 @@
+/* ==============================
+   RESET GLOBAL
+============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ==============================
+   FOND DE LA PAGE
+============================== */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 30px;
+    color: #ffffff;
+}
+
+/* ==============================
+   TITRES
+============================== */
+h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* ==============================
+   MESSAGE (CAS DÉFAVORABLE)
+============================== */
+#message {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #ff5252;
+}
+
+/* ==============================
+   TABLEAU
+============================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #5d92d614;
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+th {
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+tbody tr:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* ==============================
+   STATISTIQUES
+============================== */
+#stats {
+    list-style: none;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+#stats li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}

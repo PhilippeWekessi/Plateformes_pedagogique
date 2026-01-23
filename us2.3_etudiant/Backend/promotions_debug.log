@@ -1,0 +1,288 @@
+[2026-01-21 21:31:22] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 21:35:15] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 21:35:48] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 21:52:39] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 21:52:40] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 22:51:45] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 22:51:45] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 23:18:24] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 23:18:27] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 23:18:27] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 23:18:28] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 23:33:22] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-21 23:33:23] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-22 22:00:45] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-22 22:00:47] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---
+[2026-01-22 23:44:18] Début get_promotions.php
+Connexion PDO vérifiée
+Requête SQL: 
+        SELECT 
+            id_promotion, 
+            nom_promotion, 
+            annee_academique,
+            DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_format
+        FROM promotion 
+        WHERE id_promotion IS NOT NULL 
+        ORDER BY 
+            FIELD(nom_promotion, 'Licence 1', 'Licence 2', 'Licence 3', 'Master 1', 'Master 2'),
+            annee_academique DESC,
+            nom_promotion ASC
+    
+Nombre de promotions récupérées: 3
+Réponse envoyée avec succès
+---

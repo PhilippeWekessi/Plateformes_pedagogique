@@ -1,0 +1,300 @@
+[2026-01-21 21:53:14] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: 
+Données parsées: Array
+(
+)
+
+Connexion PDO vérifiée
+Erreurs de validation: Array
+(
+    [nom] => Le nom est obligatoire
+    [prenom] => Le prénom est obligatoire
+    [email] => L'email est obligatoire
+    [promotion_id] => Une promotion valide doit être sélectionnée
+)
+
+---
+[2026-01-21 21:53:59] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: 
+Données parsées: Array
+(
+)
+
+Connexion PDO vérifiée
+Erreurs de validation: Array
+(
+    [nom] => Le nom est obligatoire
+    [prenom] => Le prénom est obligatoire
+    [email] => L'email est obligatoire
+    [promotion_id] => Une promotion valide doit être sélectionnée
+)
+
+---
+[2026-01-21 23:19:10] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: nom=&prenom=&email=&promotion_id=
+Données parsées: Array
+(
+    [nom] => 
+    [prenom] => 
+    [email] => 
+    [promotion_id] => 
+)
+
+Connexion PDO vérifiée
+Erreurs de validation: Array
+(
+    [nom] => Le nom est obligatoire
+    [prenom] => Le prénom est obligatoire
+    [email] => L'email est obligatoire
+    [promotion_id] => Une promotion valide doit être sélectionnée
+)
+
+---
+[2026-01-21 23:33:53] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: nom=Acakpo&prenom=Thibaut&email=acakpothibaut%40gmail.com&promotion_id=2
+Données parsées: Array
+(
+    [nom] => Acakpo
+    [prenom] => Thibaut
+    [email] => acakpothibaut@gmail.com
+    [promotion_id] => 2
+)
+
+Connexion PDO vérifiée
+Validation réussie pour: Thibaut Acakpo (acakpothibaut@gmail.com), promotion: 2
+Email acakpothibaut@gmail.com disponible
+Promotion trouvée: Licence2
+Mot de passe temporaire généré: SkzbEVSAQY2E (hashé)
+SQL d'insertion: 
+            INSERT INTO users (
+                nom, 
+                prenom, 
+                email, 
+                password, 
+                role, 
+                promotion_id, 
+                statut, 
+                created_at
+            ) VALUES (
+                :nom, 
+                :prenom, 
+                :email, 
+                :password, 
+                'etudiant', 
+                :promotion_id, 
+                'actif', 
+                NOW()
+            )
+        
+Données d'insertion: Array
+(
+    [:nom] => Acakpo
+    [:prenom] => Thibaut
+    [:email] => acakpothibaut@gmail.com
+    [:password] => $2y$10$oLA9ITq48SANkfYVYngBru7pHGQQ9VH2KQkrOyL3p.NM3fsF7ACF.
+    [:promotion_id] => 2
+)
+
+Insertion réussie. ID étudiant: 7
+Transaction validée. Réponse préparée.
+---
+[2026-01-21 23:33:53] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: nom=Acakpo&prenom=Thibaut&email=acakpothibaut%40gmail.com&promotion_id=2
+Données parsées: Array
+(
+    [nom] => Acakpo
+    [prenom] => Thibaut
+    [email] => acakpothibaut@gmail.com
+    [promotion_id] => 2
+)
+
+Connexion PDO vérifiée
+Validation réussie pour: Thibaut Acakpo (acakpothibaut@gmail.com), promotion: 2
+Email acakpothibaut@gmail.com disponible
+Promotion trouvée: Licence2
+Mot de passe temporaire généré: #voWdzkzxYm$ (hashé)
+SQL d'insertion: 
+            INSERT INTO users (
+                nom, 
+                prenom, 
+                email, 
+                password, 
+                role, 
+                promotion_id, 
+                statut, 
+                created_at
+            ) VALUES (
+                :nom, 
+                :prenom, 
+                :email, 
+                :password, 
+                'etudiant', 
+                :promotion_id, 
+                'actif', 
+                NOW()
+            )
+        
+Données d'insertion: Array
+(
+    [:nom] => Acakpo
+    [:prenom] => Thibaut
+    [:email] => acakpothibaut@gmail.com
+    [:password] => $2y$10$/MNYHYd9RkSy9Z8vhuSDxuOK8Vw3BMaiK7NAOfzRpiwVnBfOaYzKS
+    [:promotion_id] => 2
+)
+
+ERREUR transaction: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicata du champ 'acakpothibaut@gmail.com' pour la clef 'users.email'
+---
+[2026-01-21 23:36:26] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: nom=Loko&prenom=Martiale&email=lokomartiale%40gmail.com&promotion_id=1
+Données parsées: Array
+(
+    [nom] => Loko
+    [prenom] => Martiale
+    [email] => lokomartiale@gmail.com
+    [promotion_id] => 1
+)
+
+Connexion PDO vérifiée
+Validation réussie pour: Martiale Loko (lokomartiale@gmail.com), promotion: 1
+Email lokomartiale@gmail.com disponible
+Promotion trouvée: Licence 1
+Mot de passe temporaire généré: R4kM$pnJu%Vt (hashé)
+SQL d'insertion: 
+            INSERT INTO users (
+                nom, 
+                prenom, 
+                email, 
+                password, 
+                role, 
+                promotion_id, 
+                statut, 
+                created_at
+            ) VALUES (
+                :nom, 
+                :prenom, 
+                :email, 
+                :password, 
+                'etudiant', 
+                :promotion_id, 
+                'actif', 
+                NOW()
+            )
+        
+Données d'insertion: Array
+(
+    [:nom] => Loko
+    [:prenom] => Martiale
+    [:email] => lokomartiale@gmail.com
+    [:password] => $2y$10$tBbureGprcxrZu3eNCYmJeouG3jBOY5uXxaRUUBHb0cm3rEODrWFO
+    [:promotion_id] => 1
+)
+
+Insertion réussie. ID étudiant: 9
+Transaction validée. Réponse préparée.
+---
+[2026-01-21 23:36:26] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: nom=Loko&prenom=Martiale&email=lokomartiale%40gmail.com&promotion_id=1
+Données parsées: Array
+(
+    [nom] => Loko
+    [prenom] => Martiale
+    [email] => lokomartiale@gmail.com
+    [promotion_id] => 1
+)
+
+Connexion PDO vérifiée
+Validation réussie pour: Martiale Loko (lokomartiale@gmail.com), promotion: 1
+Email lokomartiale@gmail.com disponible
+Promotion trouvée: Licence 1
+Mot de passe temporaire généré: CtHEe3ctmEV1 (hashé)
+SQL d'insertion: 
+            INSERT INTO users (
+                nom, 
+                prenom, 
+                email, 
+                password, 
+                role, 
+                promotion_id, 
+                statut, 
+                created_at
+            ) VALUES (
+                :nom, 
+                :prenom, 
+                :email, 
+                :password, 
+                'etudiant', 
+                :promotion_id, 
+                'actif', 
+                NOW()
+            )
+        
+Données d'insertion: Array
+(
+    [:nom] => Loko
+    [:prenom] => Martiale
+    [:email] => lokomartiale@gmail.com
+    [:password] => $2y$10$IU5ewBFcQwYMNSp96g.39.yKfUreEwho68sdek5EauorYs9iPTfle
+    [:promotion_id] => 1
+)
+
+ERREUR transaction: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicata du champ 'lokomartiale@gmail.com' pour la clef 'users.email'
+---
+[2026-01-21 23:38:24] Début creer_etudiant.php
+Content-Type: application/x-www-form-urlencoded
+Raw input: nom=Alibaba&prenom=Jean&email=alibabajean%40gmail.com&promotion_id=3
+Données parsées: Array
+(
+    [nom] => Alibaba
+    [prenom] => Jean
+    [email] => alibabajean@gmail.com
+    [promotion_id] => 3
+)
+
+Connexion PDO vérifiée
+Validation réussie pour: Jean Alibaba (alibabajean@gmail.com), promotion: 3
+Email alibabajean@gmail.com disponible
+Promotion trouvée: Licence3
+Mot de passe temporaire généré: WXpTJ#8fMITI (hashé)
+SQL d'insertion: 
+            INSERT INTO users (
+                nom, 
+                prenom, 
+                email, 
+                password, 
+                role, 
+                promotion_id, 
+                statut, 
+                created_at
+            ) VALUES (
+                :nom, 
+                :prenom, 
+                :email, 
+                :password, 
+                'etudiant', 
+                :promotion_id, 
+                'actif', 
+                NOW()
+            )
+        
+Données d'insertion: Array
+(
+    [:nom] => Alibaba
+    [:prenom] => Jean
+    [:email] => alibabajean@gmail.com
+    [:password] => $2y$10$ORbDcqpjakGPzeM0AKG3SOuzlGq5rr17oyb7dFVuNdPnvo0d2Brvq
+    [:promotion_id] => 3
+)
+
+Insertion réussie. ID étudiant: 11
+Transaction validée. Réponse préparée.
+---
+du champ 'alibabajean@gmail.com' pour la clef 'users.email'
+---
